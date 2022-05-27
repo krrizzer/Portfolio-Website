@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+Header{
+    display: inline-block;
+    background-color:lightgrey;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    height: 20px;
+    
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+.navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: 500;
+    font-size: 2em;
+    padding-left: 50px;
+    transition: 0.3s ease;
+    
+ 
+}
+.navigation a:hover{
+    color: red;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+section{
+    padding: 200px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 70vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/P1.png) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+img {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    left: 1000px;
+  }
+
+.main h1{
+    color: bisque;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h1 span{
+    color: bisque;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.main h2{
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.main-button{
+    color: black;
+    background-color: bisque;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.7000em 2.6 em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: 0.9s ease;
+}
+
+.main-button:hover{
+    background-color:cyan;
+    transform: scale(1.2);
+}
+
+.icons a{
+    color: aliceblue;
+    font-size: 3em;
+    padding-right: 40px;
+   
+}
+.head{
+    display: flex;
+    justify-content: center;
+    color: rgb(111, 24, 111);
+    font-size: 2.2em    ;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    margin-right: 50px;
+    
+}
+
+.card{
+    background-color:rgb(212, 178, 134);
+    width: 22em;
+    margin-right: 30px;
+    box-shadow: 0 20px 35px rgba(1 1 1 / 70%);
+    border-radius: 35px;
+    padding: 25px;
+    transition: 0.9s ease;
+    
+    
+}
+
+.card:hover{
+    transform: scale(1.2);
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+
+}
+
+.card h2{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 25px;
+}
+.card p{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.connnn .icon{
+    font-size: 2em;
+}
+.connnn h2{
+    color: black;
+
+}
+.connnn p{
+    color: blue;
+    font-size: 1.2em;
+}
+
+.connnn{
+    background-color: black;
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+.footer{
+    background-color:aliceblue;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer .icons a{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2em;
+    
+   
+}
+
+.footer .icons a:hover{
+    transform: scale(1.2);
+    color: red;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.copyRights{
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+@media only screen and (max-device-width:1023px) {
+    header{
+        display: inline-block;
+        padding: 12px 20px;
+        font-size: 1em;
+        height: 100px;
+        
+    }
+
+    .logo{
+        display: inline-block;
+        font-size: 2em;
+    }
+
+    .navigation a{
+        display: inline-block;
+    font-size: 11px;
+    font-weight: 1px;
+    padding: 5px;
+    }
+
+    .navigation a:hover{
+        
+       
+        font-size: 13px;
+    }
+
+    section{
+        padding: 1em 1.5em;
+    }
+
+    .main{
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        background: url(images/background.png) no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        
+    height: 100%;
+    }
+    
+    
+
+      .main-button {
+        color: black;
+        background-color: bisque;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0.4000em 1.6 em;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        transition: 0.9s ease;
+    }
+
+    .main h1{
+        color: bisque;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .main h1 span{
+        color: bisque;
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    
+    .main h2{
+        color: aliceblue;
+        font-size: 3px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    .icons a{
+        color: aliceblue;
+        font-size: 1.5em;
+        padding-right: 20px;
+       
+    }
+
+    .head{
+        
+        font-size: 1.2em    ;
+        font-weight: 800;
+        margin-bottom: 15px;
+    
+    }
+
+    .content{
+       flex-direction: column;
+       align-items: center;
+        
+    }
+    body{
+        font-size: 15px;
+    }
+    
+    
+
+}
+
